@@ -73,17 +73,17 @@ a.shopping-cart:visited{
     background-color: #222020;
     border: none;
     color: white;
-    padding: 1.5vh 2.5vw;
+    padding: 10px 15px;
     text-align: center;
     text-decoration: none;
     display: inline-block;
-    font-size: 3vh;
+    font-size: 10px;
     margin: 4px 2px;
     font-family: Arial;
     font-weight: bold;
     letter-spacing: 0.3vw;
     cursor: pointer;
-    border-radius: 5px;
+    border-radius: 2px;
 }
 
 /* description */
