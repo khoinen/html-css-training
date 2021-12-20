@@ -248,7 +248,7 @@ a.shopping-cart:visited{
     margin-bottom: 30px;
 }
 .brand-display {
-    width: 80%;
+    width: 65%;
     display: grid;
     grid-template-columns: repeat(6, 1fr);
     margin-top: 88px;
@@ -260,6 +260,10 @@ a.shopping-cart:visited{
 }
 .brand-item {
     justify-self: center;
+}
+.brand-item img{
+    width: 70%;
+    height: 70%;
 }
 /* footer */
 footer {
