@@ -30,16 +30,17 @@ a.shopping-cart:visited{
     flex-wrap: wrap;
 }
 .nav-label img{
-    height: 60%; 
-    width: 50%;
-    margin-left: 5vw;
+    height: 90%; 
+    width: 60%;
+    margin-left: 3vw;
 }
 .nav-content {
     display: flex;
     align-content: center;
+    margin-right: 2vw;
 }
 .nav-content li {
-    margin: 10px 30px;
+    margin: 10px 20px;
 }
 
 /* header */
@@ -52,17 +53,18 @@ a.shopping-cart:visited{
     align-items: center;
 }
 .header-content{
-    margin-left: 15vw;
+    margin-left: 20vw;
+    margin-top: 10vh;
 }
 .small-text{
-    font-size: 30px;
-    letter-spacing: 1vw;
+    font-size: 20px;
+    letter-spacing: 0.5vw;
     text-decoration: italic;
     color: #474747;
     margin-bottom: 4vh;
 }
 .display-text{
-    font-size: 50px;
+    font-size: 5vw;
     font-style: italic;
     margin-bottom: 4vh;
     letter-spacing: 1.5vw;
@@ -88,8 +90,10 @@ a.shopping-cart:visited{
 .row{
     display: flex;
     align-items: center;
+    max-width: 1200px;
+    margin: auto;
     width: 100%;
-    margin-top: 30px;
+    margin-top: 15px;
     padding-left: 15vw;
     padding-right: 15vw;
     justify-content: space-between;
@@ -101,17 +105,18 @@ a.shopping-cart:visited{
 }
 .line{
     /* width: 100vw; */
-    height: 2px;
-    margin-top: 30px ;
+    height: 1px;
+    margin-top: 15px ;
     background-color: lightgrey;
 }
 
 .des-top{
-    padding-bottom: 20px;
+    padding-bottom: 10px;
     color: dimgray
 }
 .des-bottom{
     color: gray;
+    font-size: 12px;
     font-family: Arial, Helvetica, sans-serif;
 }
 .title{
@@ -123,48 +128,50 @@ a.shopping-cart:visited{
 
 /* featured-products */
 .featured-products .container{
-    margin: 3vw ;
+    margin: 0 ;
 }
 
 .featured-products .container-top {
     display: grid;
     grid-gap: 50px;
-    grid-template-columns: 20% 40% 20%;
+    grid-template-columns: 20% 43% 20%;
     justify-content: center;
-    padding-bottom: 50px;
+    padding-bottom: 30px;
 }
 .featured-products .container-bottom {
     display: grid;
     grid-gap: 50px;
-    grid-template-columns: 20% 20% 40%;
+    grid-template-columns: 20% 20% 43%;
     justify-content: center;
     padding-bottom: 50px;
 }
 .container img {
     width: 100%;
-    height:100%;
+    height: 100%;
 }
 
 /* featured-items */
 .featured-items .items-top{
     display: flex;
     justify-content: space-between;
-    margin: 8vw 15vw;
+    margin: 50px auto;
+    max-width: 920px;
     align-items: center;
 }
 .featured-items .items-title p{
-    font-size: 35px;
+    font-size: 40px;
     font-weight: bold;
     color:dimgray;
 }
 .featured-items .items-top .view-text p{
     font-family: 'Prompt', sans-serif;
     color: dimgray;
+    font-size: 12px;
     font-weight: bold;
     margin-top: 10px;
 }
 .items-container {
-    max-width: 1080px;
+    max-width: 1000px;
     display: flex;
     justify-content:center;
     margin: auto;
@@ -182,21 +189,24 @@ a.shopping-cart:visited{
     font-weight: bold;
     text-align: center;
     margin-bottom: 20px;
+    font-size: 12px;
 }
 .price{ 
     color: lightcoral;
     font-weight: bold;
     text-align: center;
     font-family: 'Slabo 27px', serif;
+    font-size: 12px;
 }
 /* blog */
 .blog{ 
     background-color: whitesmoke;
 }
 .blog-title{ 
-    font-size:50px;
+    font-size:40px;
     text-align: center;
-    margin: 15vh;
+    font-weight: bold;
+    margin: 5vh;
 }
 .blog .items-container .col-4{
     max-width: 300px;
@@ -208,9 +218,9 @@ a.shopping-cart:visited{
 .blog-btn{
     border: none;
     cursor: pointer;
-    margin: 10vh auto;
+    margin: 7vh auto;
     background-color: whitesmoke;
-    font-size: 40px;
+    font-size: 20px;
     color: dimgray;
 }
 .blog-details{
@@ -256,7 +266,7 @@ footer {
     background-color: #444444;
 }
 .footer-top{
-    padding: 5vh 15vw ;
+    padding: 5vh 20vw ;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
@@ -289,7 +299,7 @@ footer {
     cursor: pointer;;
 }
 .footer-bot{
-    padding: 5vh 15vw;
+    padding: 10vh 20vw;
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -326,6 +336,9 @@ footer {
 }
 
 @media screen and (max-width: 768px){
+    .display-text{
+        font-size: 45px;
+    }
     .header{
         text-align: center;
         justify-content: center;
@@ -345,7 +358,8 @@ footer {
     }
 }
 
-@media screen and (max-width: 425px){
+@media screen and (max-width: 426px){
+    
     .featured-products .container-top {
         display: flex;
         flex-direction: column;
@@ -358,6 +372,7 @@ footer {
     }
     .nav-label img{
         margin-left: 0vw;
+        height: 70%;
     }
     .nav-content li{
         margin-top: 10px;
