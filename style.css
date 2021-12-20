@@ -68,6 +68,7 @@ a.shopping-cart:visited{
     font-style: italic;
     margin-bottom: 4vh;
     letter-spacing: 1.5vw;
+    line-height: 88px;
 }
 .header-btn{
     background-color: #222020;
@@ -172,7 +173,7 @@ a.shopping-cart:visited{
     margin-top: 10px;
 }
 .items-container {
-    max-width: 1000px;
+    max-width: 980px;
     display: flex;
     justify-content:center;
     margin: auto;
@@ -189,6 +190,7 @@ a.shopping-cart:visited{
     font-family: Arial, Helvetica, sans-serif;
     font-weight: bold;
     text-align: center;
+    margin-top: 5px;
     margin-bottom: 10px;
     font-size: 12px;
 }
@@ -238,7 +240,8 @@ a.shopping-cart:visited{
 }
 .blog-content{
     font-size: 21px;
-    padding-bottom: 45px;
+    padding-top: 6px;
+    padding-bottom: 42px;
     border-bottom: 1px solid #cccccc;
 }
 .views p{
@@ -258,7 +261,7 @@ a.shopping-cart:visited{
     padding-top: 57px;
     padding-bottom: 10px;
     align-items: center;
-    margin: auto
+    margin: 0px 19vw;
 }
 .brand-item {
     justify-self: center;
@@ -292,6 +295,7 @@ footer {
     color: cornsilk;
     font-family: 'Prompt', sans-serif;
     cursor: pointer;
+    transform: translateY(-5px);
 }
 .subscribe button{
     font-family: 'Prompt', sans-serif;
