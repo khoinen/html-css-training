@@ -45,7 +45,7 @@ a.shopping-cart:visited{
 
 /* header */
 .header {
-    height: 100vh;
+    height: 800px;
     background-image: url(./asset/bg@1X.jpg);
     background-position: bottom;
     background-size: cover;
@@ -54,7 +54,7 @@ a.shopping-cart:visited{
 }
 .header-content{
     margin-left: 20vw;
-    margin-top: 10vh;
+    margin-top: 5vh;
 }
 .small-text{
     font-size: 20px;
@@ -111,7 +111,7 @@ a.shopping-cart:visited{
 }
 
 .des-top{
-    padding-bottom: 10px;
+    padding-bottom: 8px;
     color: dimgray
 }
 .des-bottom{
@@ -121,8 +121,9 @@ a.shopping-cart:visited{
 }
 .title{
     text-align: center;
-    margin: 100px 10px;
-    line-height: 50px;
+    margin: 80px 10px;
+    line-height: 40px;
+    padding-bottom: 15px;
     color: dimgray;
 }
 
@@ -136,7 +137,7 @@ a.shopping-cart:visited{
     grid-gap: 50px;
     grid-template-columns: 20% 43% 20%;
     justify-content: center;
-    padding-bottom: 30px;
+    padding-bottom: 45px;
 }
 .featured-products .container-bottom {
     display: grid;
@@ -188,7 +189,7 @@ a.shopping-cart:visited{
     font-family: Arial, Helvetica, sans-serif;
     font-weight: bold;
     text-align: center;
-    margin-bottom: 20px;
+    margin-bottom: 10px;
     font-size: 12px;
 }
 .price{ 
@@ -206,7 +207,9 @@ a.shopping-cart:visited{
     font-size:40px;
     text-align: center;
     font-weight: bold;
-    margin: 5vh;
+    margin-top: 90px;
+    margin-bottom: 30px;
+    transform: translateY(-30px) ;
 }
 .blog .items-container .col-4{
     max-width: 300px;
@@ -218,27 +221,28 @@ a.shopping-cart:visited{
 .blog-btn{
     border: none;
     cursor: pointer;
-    margin: 7vh auto;
-    background-color: whitesmoke;
-    font-size: 20px;
+    margin: 45px auto;
+    padding-bottom: 40px;
+    background-color: #f5f5f5;
+    font-size: 18px;
     color: dimgray;
 }
 .blog-details{
-    margin: 25px 25px;
+    margin: 15px 25px;
 }
 .date{
-    margin-bottom: 25px;
-    font-size: 15px;
+    margin-bottom: 15px;
+    font-size: 10px;
     font-family: Arial, Helvetica, sans-serif;
     color: lightgrey;
 }
 .blog-content{
     font-size: 21px;
-    padding-bottom: 50px;
+    padding-bottom: 45px;
     border-bottom: 1px solid #cccccc;
 }
 .views p{
-    padding-top: 20px;
+    padding-top: 15px;
     color: gray;
     font-size: 12px;
 }
@@ -251,10 +255,8 @@ a.shopping-cart:visited{
     width: 65%;
     display: grid;
     grid-template-columns: repeat(6, 1fr);
-    margin-top: 88px;
-    margin-bottom: 30px;
-    border-top: 1px solid #cccccc;
-    padding-top: 40px;
+    padding-top: 57px;
+    padding-bottom: 10px;
     align-items: center;
     margin: auto
 }
@@ -270,7 +272,7 @@ footer {
     background-color: #444444;
 }
 .footer-top{
-    padding: 5vh 20vw ;
+    padding: 60px 19.5vw ;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
@@ -303,7 +305,10 @@ footer {
     cursor: pointer;;
 }
 .footer-bot{
-    padding: 10vh 20vw;
+    padding-left: 19.5vw;
+    padding-right: 19.5vw;
+    padding-top: 25px;
+    padding-bottom: 50px;
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -314,11 +319,12 @@ footer {
 }
 .footer-bot li{
     font-size: 30px;
-    padding: 0px 12px;
+    padding-left: 20px;
 }
 .copyright p{
     font-family: Arial, Helvetica, sans-serif;
     font-size: 10px;
+    line-height: 25px;
 }
 
 /* Responsive */
