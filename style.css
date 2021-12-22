@@ -396,6 +396,12 @@ footer {
     .description .row .col p{
         padding-bottom: 30px;
     }
+    .items-container{
+        flex-wrap: wrap;
+    }
+    .shopping-menu button{
+        padding: 7px 19.5px;
+    }
 }
 
 @media screen and (max-width: 426px){
